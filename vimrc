@@ -10,7 +10,6 @@ set ruler
 set wildmenu                  
 
 " my settings
-set clipboard=unnamedplus
 set encoding=utf-8
 set spell
 set spell spelllang=en_gb
@@ -56,19 +55,7 @@ augroup textgroup
     autocmd!
     autocmd BufNewFile,BufRead *.txt set filetype=markdown
     autocmd BufNewFile,BufRead *.txt setlocal nocursorline
-    autocmd BufNewFile,BufRead *.html setlocal noautoindent
 augroup END
-
-" plugins
-call plug#begin()
-Plug 'alvan/vim-closetag'
-Plug 'junegunn/goyo.vim'
-Plug 'justinmk/vim-sneak'
-Plug 'machakann/vim-highlightedyank'
-Plug 'reedes/vim-colors-pencil'
-Plug 'tpope/vim-commentary'
-Plug 'romainl/vim-tinyMRU'
-call plug#end()
 
 " plugin settings
 let g:sneak#label = 1

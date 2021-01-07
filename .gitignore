@@ -2,4 +2,4 @@
 *.lnk
 
 # ignore 'test' folder
-plugged/
+pack/
