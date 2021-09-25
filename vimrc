@@ -10,10 +10,8 @@ set clipboard=unnamed
 set complete-=i
 set display+=lastline
 set encoding=utf-8
-set laststatus=2
 set mouse=a
 set noswapfile 
-set shell=$PROGRAMW6432/Git/bin/bash.exe
 set wildmenu
 
 "nice tabs -- see vimcast of tabs
@@ -35,19 +33,15 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
-nnoremap <tab> %
-vnoremap <tab> %
-nnoremap / /\v
-vnoremap / /\v
 
-" nice looks
-set guioptions-=T
-set guioptions-=t
-set guifont=Consolas:h16
-set background=light
-colorscheme lucius
+"nice maps
+if has('win32')
+    source ~\vimfiles\maps.vim
+elseif has ('unix')
+    source ~/.vim/maps.vim
+endif
 
-" plugins 
+"nice plugins -- put in pack/bundle/start
 " https://github.com/tommcdo/vim-exchange
 " https://github.com/godlygeek/tabular
 " https://github.com/tpope/vim-surround 
