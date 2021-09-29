@@ -12,27 +12,30 @@ set display+=lastline
 set encoding=utf-8
 set mouse=a
 set noswapfile 
+set ruler
 set wildmenu
+set wildignorecase
 
-"nice tabs -- see vimcast of tabs
+"nice tabs -- see vimcast on tabs
 set smarttab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set shiftround
 
-"nice wraps
+"nice wraps -- see maps.vim
 set wrap
 set linebreak
 set nolist 
-nnoremap j gj
-nnoremap k gk
 
 "nice search 
 set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+nnoremap / /\v
+vnoremap / /\v
 
 "nice maps
 if has('win32')
