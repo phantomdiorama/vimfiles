@@ -16,6 +16,10 @@ set ruler
 set wildmenu
 set wildignorecase
 
+"splits
+set splitright
+set splitbelow
+
 "nice tabs -- see vimcast on tabs
 set smarttab
 set tabstop=4
@@ -37,6 +41,10 @@ set hlsearch
 nnoremap / /\v
 vnoremap / /\v
 
+"spelling
+set spell 
+set spelllang=en_gb
+
 "nice maps
 if has('win32')
     source ~\vimfiles\maps.vim
@@ -44,9 +52,5 @@ elseif has ('unix')
     source ~/.vim/maps.vim
 endif
 
-"nice plugins -- put in pack/bundle/start
-" https://github.com/tommcdo/vim-exchange
-" https://github.com/godlygeek/tabular
-" https://github.com/tpope/vim-surround 
-" https://github.com/wsdjeg/vim-autohotkey
-" https://github.com/kblin/vim-fountain
+"commands
+command! WordCount :call myfunctions#PandocWordCount()
