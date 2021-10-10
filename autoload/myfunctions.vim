@@ -13,4 +13,3 @@ function! myfunctions#PandocWordCount()
     " Insert the wordcount
     call append(0, split(wordcount, '\v\n'))
 endfunction
-

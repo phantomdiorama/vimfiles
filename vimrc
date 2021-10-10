@@ -1,8 +1,6 @@
 filetype plugin indent on
 syntax on
 
-runtime macros/matchit.vim
-
 "decent behaviour -- mostly from sensible
 set autoindent
 set backspace=indent,eol,start
@@ -47,9 +45,11 @@ set spelllang=en_gb
 
 "nice maps
 if has('win32')
-    source ~\vimfiles\maps.vim
+    source ~\vimfiles\config\maps.vim
+    source ~\vimfiles\config\tabcomp.vim
 elseif has ('unix')
-    source ~/.vim/maps.vim
+    source ~/.vim/config/maps.vim
+    source ~/.vim/config/tabcomp.vim
 endif
 
 "commands
