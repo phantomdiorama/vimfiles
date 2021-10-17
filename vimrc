@@ -33,17 +33,14 @@ set nolist
 
 "nice search 
 set ignorecase
-set smartcase
 set incsearch
 set hlsearch
-nnoremap / /\v
-vnoremap / /\v
 
 "spelling
 set spell 
 set spelllang=en_gb
 
-"nice maps
+"nice config
 if has('win32')
     source ~\vimfiles\config\maps.vim
     source ~\vimfiles\config\tabcomp.vim
@@ -51,6 +48,3 @@ elseif has ('unix')
     source ~/.vim/config/maps.vim
     source ~/.vim/config/tabcomp.vim
 endif
-
-"commands
-command! WordCount :call myfunctions#PandocWordCount()
