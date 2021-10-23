@@ -31,5 +31,3 @@ nnoremap <leader>b :ls<cr>:b<space>
 nnoremap <leader>n :bn<cr>
 nnoremap <leader>d :bd<cr>
 nnoremap <leader>f :ME<space>
-
-
