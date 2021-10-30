@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='C:\Users\buckl'
+let g:netrw_dirhist_8='C:/Users/buckl/Desktop'
+let g:netrw_dirhist_7='C:\Users\buckl'
+let g:netrw_dirhist_6='C:/Users/buckl/Dropbox'
+let g:netrw_dirhist_5='C:/Users/buckl'
+let g:netrw_dirhist_4='C:/Users/buckl/My Documents'
+let g:netrw_dirhist_3='C:\Users\buckl'
+let g:netrw_dirhist_2='C:/Users/buckl/vimfiles/config'
+let g:netrw_dirhist_1='C:/Users/buckl/vimfiles'

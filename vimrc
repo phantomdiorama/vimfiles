@@ -40,11 +40,18 @@ set hlsearch
 set spell 
 set spelllang=en_gb
 
+"colors
+set background=light
+colorscheme pencil
+
 "nice config
 if has('win32')
     source ~\vimfiles\config\maps.vim
     source ~\vimfiles\config\tabcomp.vim
+    source ~\vimfiles\config\plugsettings.vim
 elseif has ('unix')
     source ~/.vim/config/maps.vim
     source ~/.vim/config/tabcomp.vim
+    source ~/.vim/config/plugsettings.vim
 endif
+
