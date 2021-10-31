@@ -11,6 +11,7 @@ set encoding=utf-8
 set mouse=a
 set noswapfile 
 set ruler
+set rulerformat=%=%l,%c%V\ of\ %L
 set wildmenu
 set wildignorecase
 
@@ -42,7 +43,7 @@ set spelllang=en_gb
 
 "colors
 set background=light
-colorscheme pencil
+colorscheme deli
 
 "nice config
 if has('win32')
@@ -54,4 +55,3 @@ elseif has ('unix')
     source ~/.vim/config/tabcomp.vim
     source ~/.vim/config/plugsettings.vim
 endif
-
