@@ -45,13 +45,7 @@ set spelllang=en_gb
 set background=light
 colorscheme deli
 
-"nice config
-if has('win32')
-    source ~\vimfiles\config\maps.vim
-    source ~\vimfiles\config\tabcomp.vim
-    source ~\vimfiles\config\plugsettings.vim
-elseif has ('unix')
-    source ~/.vim/config/maps.vim
-    source ~/.vim/config/tabcomp.vim
-    source ~/.vim/config/plugsettings.vim
-endif
+"nice sauce
+runtime maps.vim
+runtime plugsettings.vim
+

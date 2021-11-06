@@ -4,6 +4,7 @@ let mapleader=' '
 "general
 nnoremap ; :
 nnoremap Y y$
+nnoremap q <nop>
 
 "better escaping
 inoremap jk <ESC>
@@ -30,4 +31,5 @@ nnoremap <right> <nop>
 nnoremap <leader>b :ls<cr>:b<space>
 nnoremap <leader>n :bn<cr>
 nnoremap <leader>d :bd<cr>
-nnoremap <leader>f :ME<space>
+nnoremap <leader>f :e .<cr>
+nnoremap <leader><space> :noh<cr>
