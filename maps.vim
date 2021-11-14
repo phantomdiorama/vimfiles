@@ -5,10 +5,15 @@ let mapleader=' '
 nnoremap ; :
 nnoremap Y y$
 nnoremap q <nop>
+cnoremap <C-V> <C-R>+
 
 "better escaping
 inoremap jk <ESC>
 inoremap <X1Mouse> <ESC>
+
+" better searching
+nnoremap / /\v
+vnoremap / /\v
 
 " move by visual lines
 nnoremap j gj

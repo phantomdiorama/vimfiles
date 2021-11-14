@@ -8,6 +8,7 @@ set clipboard=unnamed
 set complete-=i
 set display+=lastline
 set encoding=utf-8
+set number
 set mouse=a
 set noswapfile 
 set ruler
@@ -34,16 +35,18 @@ set nolist
 
 "nice search 
 set ignorecase
+set smartcase
 set incsearch
 set hlsearch
+set gdefault 
 
 "spelling
 set spell 
 set spelllang=en_gb
 
-"colors
+"colors 
 set background=light
-colorscheme deli
+colorscheme pencil
 
 "nice sauce
 runtime maps.vim

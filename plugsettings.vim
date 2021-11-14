@@ -1,4 +1,3 @@
-
 " nice plugins -- put in pack/bundle/start
 " https://github.com/tommcdo/vim-exchange
 " https://github.com/godlygeek/tabular
@@ -23,8 +22,3 @@
 let g:startify_custom_header_quotes = [["First there is a mountain"]]
 let g:startify_lists = [{ 'type':'files','header': ['MRU']}]
 let g:startify_files_number = 6
-
-
-
-
-
