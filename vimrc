@@ -46,7 +46,7 @@ set spelllang=en_gb
 
 "colors 
 set background=light
-colorscheme pencil
+colorscheme lucius
 
 "nice sauce
 runtime maps.vim
