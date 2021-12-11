@@ -38,3 +38,6 @@ nnoremap <leader>n :bn<cr>
 nnoremap <leader>d :bd<cr>
 nnoremap <leader>f :e .<cr>
 nnoremap <leader><space> :noh<cr>
+
+" Make x not yank to register
+noremap x "_x
