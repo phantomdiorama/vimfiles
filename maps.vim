@@ -41,3 +41,6 @@ nnoremap <leader><space> :noh<cr>
 
 " Make x not yank to register
 noremap x "_x
+
+" Commands
+ command! GooglePaste :!pandoc % -o temp.html
