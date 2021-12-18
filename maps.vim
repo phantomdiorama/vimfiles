@@ -43,4 +43,4 @@ nnoremap <leader><space> :noh<cr>
 noremap x "_x
 
 " Commands
- command! GooglePaste :!pandoc % -o temp.html
+ command! Pandoc :!pandoc % -o temp.html
