@@ -1,4 +1,4 @@
-"nice stuff
+"nice stuff not covered by sensible.vim
 set clipboard=unnamed
 set mouse=a
 set noswapfile 
@@ -9,9 +9,6 @@ nnoremap Y y$
 "better escaping
 inoremap jk <ESC>
 inoremap <X1Mouse> <ESC>
-
-" blackhole
-noremap x "_x
 
 "nice wraps
 set wrap
@@ -25,5 +22,5 @@ set background=light
 colorscheme lucius
 
 "nice gui
-set guifont=Cascadia\ Mono:h14
+set guifont=Cousine:h14
 set guioptions-=T
