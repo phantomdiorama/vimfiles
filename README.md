@@ -1,7 +1,9 @@
 # vimfiles
  
-personal vim stuff
+my (hopefully) minimal vim config
 
-```
-git clone https://github.com/phantomdiorama/vimfiles.git .
-```
+## plugins
+
+<https://github.com/wsdjeg/vim-autohotkey>
+
+<https://github.com/tpope/vim-commentary>

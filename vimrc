@@ -1,26 +1,37 @@
-"nice stuff not covered by sensible.vim
-set clipboard=unnamed
-set mouse=a
+filetype plugin indent on
+syntax on
+
+" nice defaults
+set encoding=utf-8
+set backspace=indent,eol,start
 set noswapfile 
 set number
-nnoremap ; :
+set mouse=a
+set wildmenu
 nnoremap Y y$
 
-"better escaping
-inoremap jk <ESC>
-inoremap <X1Mouse> <ESC>
+" nice indent
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set autoindent
+set shiftround
 
-"nice wraps
+" nice search
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+" nice wraps
 set wrap
 set linebreak
 set nolist
 nnoremap j gj
 nnoremap k gk
 
-"nice colors 
+" nice gui
 set background=light
 colorscheme lucius
-
-"nice gui
-set guifont=Cousine:h14
+set guifont=Consolas:h16
 set guioptions-=T
