@@ -1,9 +1,16 @@
 # vimfiles
  
-my (hopefully) minimal vim config
+My (hopefully) minimal vim config
 
 ## plugins
 
-[AutoHotkey](https://github.com/wsdjeg/vim-autohotkey)
+Some helpful and mostly optional plugins
 
-[Commentary](https://github.com/tpope/vim-commentary)
+Quality of life:
+
+- [Commentary](https://github.com/tpope/vim-commentary)
+
+Language Support:
+
+- [AutoHotkey](https://github.com/wsdjeg/vim-autohotkey)
+- [fountain](https://github.com/phantomdiorama/fount)
