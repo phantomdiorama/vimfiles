@@ -8,7 +8,9 @@ Some helpful and mostly optional plugins
 
 Quality of life:
 
+- [DelimitMate](https://github.com/raimondi/delimitmate)
 - [Commentary](https://github.com/tpope/vim-commentary)
+- [Highlightedyank](https://github.com/machakann/vim-highlightedyank)
 
 Language Support:
 

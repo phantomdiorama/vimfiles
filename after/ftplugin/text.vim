@@ -1,6 +1,3 @@
-" comfortable writing options
-setlocal linespace=3
-
 " use curly quotes instead of straight quotes 
 inoremap <silent> <buffer> ' ’
 inoremap <silent> <buffer> " ‘’<Left>
