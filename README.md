@@ -15,4 +15,4 @@ Quality of life:
 Language Support:
 
 - [AutoHotkey](https://github.com/wsdjeg/vim-autohotkey)
-- [fountain](https://github.com/phantomdiorama/fount)
+- [fountain](https://github.com/phantomdiorama/vim-fountain)
