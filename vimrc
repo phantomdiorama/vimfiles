@@ -42,6 +42,6 @@ set linespace=3                 " make text easier to read
 set titlestring=%F%m            " filepath in title 
 set guifont=Consolas:h18        " decent font
 set guioptions-=T               " no toolbar cos useless
-set guioptions-=e               " no toolbar cos useless
+set guioptions-=e               " no tabbar cos useless
 
 set spell
