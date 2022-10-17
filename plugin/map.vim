@@ -19,7 +19,7 @@ inoremap <X1Mouse> <ESC>
 
 " leader
 let mapleader=' '
-let maplocalleader='\'
+let maplocalleader=','
 
 nnoremap <leader>x :bdel<cr>
 nnoremap <leader>w :e C:\Users\buckl\Dropbox\wiki\wiki.md<cr>

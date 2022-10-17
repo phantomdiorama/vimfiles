@@ -13,6 +13,7 @@ set spelllang=en_gb             " set spelling language
 set wildmenu                    " commandline completion
 set splitright
 set splitbelow
+set autochdir
 
 " nice indent
 set autoindent                  " indent according previous line
@@ -38,6 +39,7 @@ set cursorline                  " highlight current line
 set display=lastline            " show everything
 set guifont=Consolas:h18        " decent font
 set guioptions-=T               " no toolbar cos useless
+set guioptions-=e               " no toolbar cos useless
 set linespace=3                 " make text easier to read
 set titlestring=%F%m            " filepath in title
 
