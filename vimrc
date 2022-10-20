@@ -1,6 +1,10 @@
 filetype plugin indent on
 syntax on
 
+augroup mygroup
+    autocmd!
+augroup END
+
 " nice defaults
 set backspace=indent,eol,start  " backspace like you expect
 set encoding=utf-8              " file encoding inside vim
@@ -45,12 +49,12 @@ set titlestring=%F%m            " filepath in title
 
  " nice colors
 set background=light
-colorscheme lucius
+colorscheme flattened_light
 hi SpellBad guifg=#FA71B7 gui=NONE
 
- " autogroups
-augroup textobj_quote
-  autocmd!
-  autocmd FileType markdown call textobj#quote#init()
-  autocmd FileType text call textobj#quote#init()
-augroup END
+" smart quotes where needed
+autocmd mygroup FileType markdown call textobj#quote#init()
+autocmd mygroup FileType text call textobj#quote#init()
+
+" open quickfix when its not empty
+autocmd mygroup QuickFixCmdPost [^l]* cwindow
