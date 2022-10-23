@@ -45,11 +45,10 @@ set guifont=Consolas:h18        " decent font
 set guioptions-=T               " no toolbar cos useless
 set guioptions-=e               " no toolbar cos useless
 set linespace=3                 " make text easier to read
-set titlestring=%F%m            " filepath in title
 
  " nice colors
 set background=light
-colorscheme flattened_light
+colorscheme lucius
 hi SpellBad guifg=#FA71B7 gui=NONE
 
 " smart quotes where needed

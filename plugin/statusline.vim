@@ -1,7 +1,7 @@
-set laststatus=2
+set titlestring=%F%m
 
+set laststatus=2
 set statusline=
-" set statusline+=%#cursor#
 set statusline+=%f
 set statusline+=%m
 set statusline+=%=
