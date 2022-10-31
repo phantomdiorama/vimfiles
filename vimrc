@@ -15,9 +15,10 @@ set ruler                       " use ruler
 set spell                       " use spellchecking
 set spelllang=en_gb             " set spelling language
 set wildmenu                    " commandline completion
-set splitright
-set splitbelow
-set autochdir
+set splitright                  " split properly
+set splitbelow                  " split properly
+set autochdir                   " follow current file
+set wildcharm=<tab>             " use autocomplete in maps
 
 " nice indent
 set autoindent                  " indent according previous line

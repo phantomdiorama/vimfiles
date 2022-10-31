@@ -32,7 +32,7 @@ let maplocalleader=','
 nnoremap <leader>x  :bdel<cr>
 nnoremap <leader>n  :b#<cr>
 nnoremap <leader>b  :buffers<cr>:buffer<space>
-nnoremap <leader>f  :ME<space>
+nnoremap <leader>f  :ME<space><tab>
 
 " wiki
 nnoremap <leader>w  :e C:\Users\buckl\Dropbox\wiki\wiki.md<cr>
