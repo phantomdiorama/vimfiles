@@ -37,7 +37,7 @@ set smartcase                   " ignore case unless start with caps
 " nice wraps
 set wrap                        " word wrap
 set linebreak                   " break at good places
-set nolist                      " make linebreak better
+set nolist                      " make lines break better
 
 " nice looks & gui
 set cursorline                  " highlight current line

@@ -5,5 +5,5 @@ set statusline=
 set statusline+=%f
 set statusline+=%m
 set statusline+=%=
-set statusline+=%l,%v
+set statusline+=%l:%v
 set statusline+=\ 
