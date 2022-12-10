@@ -49,8 +49,7 @@ set linespace=3                 " make text easier to read
 
  " nice colors
 set background=light
-colorscheme lucius
-hi SpellBad guifg=#FA71B7 gui=NONE
+colorscheme pencil
 
 " smart quotes where needed
 autocmd mygroup FileType markdown call textobj#quote#init()
