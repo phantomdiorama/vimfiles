@@ -20,7 +20,7 @@ nnoremap / /\v
 vnoremap / /\v
 
 " make
-nnoremap <F1>   :make<cr>
+nnoremap <F1>   <ESC>:make<cr>
 
 " ============================
 " LEADER
