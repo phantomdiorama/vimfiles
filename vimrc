@@ -49,7 +49,9 @@ set linespace=3                 " make text easier to read
 
  " nice colors
 set background=light
-colorscheme pencil
+colorscheme lucius
+" set guioptions-=m
+set guioptions-=r
 
 " smart quotes where needed
 autocmd mygroup FileType markdown call textobj#quote#init()
@@ -57,3 +59,6 @@ autocmd mygroup FileType text call textobj#quote#init()
 
 " open quickfix when its not empty
 autocmd mygroup QuickFixCmdPost [^l]* cwindow
+
+" needed for mucomplete
+set completeopt+=menuone

@@ -19,9 +19,6 @@ nnoremap <C-s>  :w<cr>
 nnoremap / /\v
 vnoremap / /\v
 
-" make
-nnoremap <F1>   <ESC>:make<cr>
-
 " ============================
 " LEADER
 " ============================
@@ -33,6 +30,7 @@ nnoremap <leader>x  :bdel<cr>
 nnoremap <leader>n  :b#<cr>
 nnoremap <leader>b  :buffers<cr>:buffer<space>
 nnoremap <leader>f  :ME<space><tab>
+nnoremap <leader>m  :make<cr>
 
 " wiki
 nnoremap <leader>w  :e C:\Users\buckl\Dropbox\wiki\wiki.md<cr>
