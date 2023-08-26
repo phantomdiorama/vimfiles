@@ -19,6 +19,7 @@ set splitright                  " split properly
 set splitbelow                  " split properly
 set autochdir                   " follow current file
 set wildcharm=<tab>             " use autocomplete in maps
+set completeopt+=menuone        " needed for mucomplete
 
 " nice indent
 set autoindent                  " indent according previous line
@@ -45,20 +46,14 @@ set display=lastline            " show everything
 set guifont=Consolas:h18        " decent font
 set guioptions-=T               " no toolbar cos useless
 set guioptions-=e               " no toolbar cos useless
+set guioptions-=r
 set linespace=3                 " make text easier to read
 
  " nice colors
 set background=light
 colorscheme lucius
-" set guioptions-=m
-set guioptions-=r
+highlight SpellBad guibg=#D7AFAF
 
 " smart quotes where needed
 autocmd mygroup FileType markdown call textobj#quote#init()
 autocmd mygroup FileType text call textobj#quote#init()
-
-" open quickfix when its not empty
-autocmd mygroup QuickFixCmdPost [^l]* cwindow
-
-" needed for mucomplete
-set completeopt+=menuone
