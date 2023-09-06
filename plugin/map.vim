@@ -31,6 +31,7 @@ nnoremap <leader>n  :b#<cr>
 nnoremap <leader>b  :buffers<cr>:buffer<space>
 nnoremap <leader>f  :ME<space><tab>
 nnoremap <leader>m  :make<cr>
+nnoremap <leader>s  :set spell!<cr>
 
 " wiki
 nnoremap <leader>w  :e C:\Users\buckl\Dropbox\wiki\wiki.md<cr>
