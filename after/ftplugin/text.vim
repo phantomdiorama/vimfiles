@@ -5,4 +5,5 @@ augroup smart_caps
 augroup END
 
 " locals
+setlocal spell
 setlocal nocursorline

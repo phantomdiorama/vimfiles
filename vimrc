@@ -12,7 +12,7 @@ set mouse=a                     " mouse everywhere
 set noswapfile                  " don’t create annoying files
 set number                      " line numbers
 set ruler                       " use ruler
-set spell                       " use spellchecking
+"set spell                       " use spellchecking
 set spelllang=en_gb             " set spelling language
 set wildmenu                    " command line completion
 set splitright                  " split properly
