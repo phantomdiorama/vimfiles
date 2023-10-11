@@ -20,6 +20,7 @@ set splitbelow                  " split properly
 set autochdir                   " follow current file
 set wildcharm=<tab>             " use autocomplete in maps
 set completeopt+=menuone        " needed for mucomplete
+set textwidth=74
 
 " nice indent
 set autoindent                  " indent according previous line
@@ -36,11 +37,12 @@ set incsearch                   " highlight searches as you go
 set smartcase                   " ignore case unless start with caps
 
 " nice wraps
-set wrap                        " word wrap
-set linebreak                   " break at good places
+"set wrap                        " word wrap
+"set linebreak                   " break at good places
 
 " nice looks
 set cursorline                  " highlight current line
+set colorcolumn=80              " highlight long lines
 set display=lastline            " show everything
 set guifont=Consolas:h18        " decent font
 set guioptions-=T               " no toolbar cos useless

@@ -6,10 +6,11 @@
 inoremap jk         <ESC>
 inoremap <X1Mouse>  <ESC> 
 nnoremap Y          y$
+nnoremap q          gwip
 
 " wrapping
-nnoremap j  gj
-nnoremap k  gk
+" nnoremap j  gj
+" nnoremap k  gk
 
 " save
 inoremap <C-s>  <C-O>:w<cr>
@@ -30,7 +31,6 @@ nnoremap <leader>x  :bdel<cr>
 nnoremap <leader>n  :b#<cr>
 nnoremap <leader>b  :buffers<cr>:buffer<space>
 nnoremap <leader>f  :ME<space><tab>
-nnoremap <leader>m  :make<cr>
 nnoremap <leader>s  :set spell!<cr>
 
 " wiki
