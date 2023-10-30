@@ -1,11 +1,11 @@
 
 Name
 ----
+autohotkey.vim
 delimitmate
 goyo.vim
 tabular
 vim-abolish
-vim-autohotkey
 vim-commentary
 vim-exchange
 vim-fountain
