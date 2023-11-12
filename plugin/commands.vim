@@ -10,4 +10,7 @@ command! Wiki :e C:\Users\buckl\Dropbox\wiki\wiki.md
 command! MyConfig :vsp $MYVIMRC
 
 " blog front matter
-command! Blog :0read ~/vimfiles/templates/bloghead.md
+command! Blog :0read ~/vimfiles/templates/blog.md
+
+" atom feed entry
+command! Atom :read ~/vimfiles/templates/atom.md

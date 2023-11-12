@@ -1,16 +1,12 @@
 " ============================
-" GENERAL 
-" ============================ 
+" GENERAL
+" ============================
 
 " better defaults
 inoremap jk         <ESC>
-inoremap <X1Mouse>  <ESC> 
+inoremap <X1Mouse>  <ESC>
 nnoremap Y          y$
 nnoremap q          gwip
-
-" wrapping
-" nnoremap j  gj
-" nnoremap k  gk
 
 " save
 inoremap <C-s>  <C-O>:w<cr>
@@ -34,5 +30,5 @@ nnoremap <leader>f  :ME<space><tab>
 nnoremap <leader>s  :set spell!<cr>
 
 " wiki
-nnoremap <leader>w  :e C:\Users\buckl\Dropbox\wiki\wiki.md<cr>
+nnoremap <leader>z :e C:\Users\buckl\Dropbox\wiki\wiki.md<cr>
 nnoremap <leader>gf :e <cfile><cr>
