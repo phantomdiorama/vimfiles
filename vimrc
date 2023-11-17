@@ -36,10 +36,6 @@ set ignorecase                  " ignore case when searching
 set incsearch                   " highlight searches as you go
 set smartcase                   " ignore case unless start with caps
 
-" nice wraps
-"set wrap                        " word wrap
-"set linebreak                   " break at good places
-
 " nice looks
 set cursorline                  " highlight current line
 set colorcolumn=80              " highlight long lines
@@ -48,6 +44,7 @@ set guifont=Consolas:h18        " decent font
 set guioptions-=T               " no toolbar cos useless
 set guioptions-=e               " no toolbar cos useless
 set guioptions-=r               " no scrollbar
+set guioptions+=d               " no scrollbar
 set linespace=3                 " make text easier to read
 set list                        " show white space
 set listchars=trail:&           " show only trailing spaces
@@ -60,4 +57,4 @@ highlight SpecialKey guifg=magenta
 
 " smart quotes where needed
 autocmd mygroup FileType markdown call textobj#quote#init()
-autocmd mygroup FileType text call textobj#quote#init()
+" autocmd mygroup FileType text call textobj#quote#init()
