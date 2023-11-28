@@ -5,6 +5,7 @@
 " better defaults
 inoremap jk         <ESC>
 inoremap <X1Mouse>  <ESC>
+inoremap <C-c>      <esc>
 nnoremap Y          y$
 nnoremap q          gwip
 

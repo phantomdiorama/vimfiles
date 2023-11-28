@@ -40,21 +40,34 @@ set smartcase                   " ignore case unless start with caps
 set cursorline                  " highlight current line
 set colorcolumn=80              " highlight long lines
 set display=lastline            " show everything
-set guifont=Consolas:h18        " decent font
-set guioptions-=T               " no toolbar cos useless
-set guioptions-=e               " no toolbar cos useless
-set guioptions-=r               " no scrollbar
-set guioptions+=d               " no scrollbar
 set linespace=3                 " make text easier to read
 set list                        " show white space
 set listchars=trail:&           " show only trailing spaces
 
- " nice colors
-set background=light
-colorscheme lucius
+" nice gui
+set guioptions-=T               " no toolbar cos useless
+set guioptions-=e               " no toolbar cos useless
+set guioptions-=r               " no scrollbar
+set guioptions+=d               " no scrollbar
+
+" nice font and colors
+if has("gui_running")
+  if has("gui_win32")
+    set guifont=Consolas:h18
+    set background=light
+    colorscheme lucius
+  else
+    set guifont=Hack\ 18
+    set background=dark
+    colorscheme pencil
+  endif
+endif
+
+ " better higlighting
 highlight SpellBad   guifg=black guibg=#D7AFAF
 highlight SpecialKey guifg=magenta
 
 " smart quotes where needed
 autocmd mygroup FileType markdown call textobj#quote#init()
-" autocmd mygroup FileType text call textobj#quote#init()
+autocmd mygroup FileType markdown call litecorrect#init()
+autocmd mygroup FileType text call litecorrect#init()
