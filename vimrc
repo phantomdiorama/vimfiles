@@ -71,3 +71,8 @@ highlight SpecialKey guifg=magenta
 autocmd mygroup FileType markdown call textobj#quote#init()
 autocmd mygroup FileType markdown call litecorrect#init()
 autocmd mygroup FileType text call litecorrect#init()
+
+" ultisnips
+" let g:UltiSnipsExpandOrJumpTrigger="<m-space>"
+let g:UltiSnipsExpandOrJumpTrigger="`"
+

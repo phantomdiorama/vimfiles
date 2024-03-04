@@ -1,0 +1,10 @@
+snippet atom
+    <entry>
+        <title>$1</title>
+        <link href="https://www.michaelbuckleywriter.com/$2.html"/>
+        <id>`!p if not snip.c: import uuid; snip.rv = str(uuid.uuid4())`</id>
+        <updated>`!v strftime("%Y-%m-%dT%H:%M:%SZ")`</updated>
+        <summary>$3</summary>
+    </entry>
+$0
+endsnippet

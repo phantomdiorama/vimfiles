@@ -30,6 +30,8 @@ nnoremap <leader>b  :buffers<cr>:buffer<space>
 nnoremap <leader>f  :ME<space><tab>
 nnoremap <leader>s  :set spell!<cr>
 
-" wiki
+" ===========================
+" WIKI
+" ===========================
 nnoremap <leader>z :e C:\Users\buckl\Dropbox\wiki\wiki.md<cr>
 nnoremap <leader>gf :e <cfile><cr>
