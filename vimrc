@@ -12,15 +12,12 @@ set mouse=a                     " mouse everywhere
 set noswapfile                  " don’t create annoying files
 set number                      " line numbers
 set ruler                       " use ruler
-"set spell                       " use spellchecking
-set spelllang=en_gb             " set spelling language
 set wildmenu                    " command line completion
 set splitright                  " split properly
 set splitbelow                  " split properly
 set autochdir                   " follow current file
 set wildcharm=<tab>             " use autocomplete in maps
-set completeopt+=menuone        " needed for mucomplete
-set textwidth=74
+set textwidth=74                " short textwidth
 
 " nice indent
 set autoindent                  " indent according previous line
@@ -44,35 +41,24 @@ set linespace=3                 " make text easier to read
 set list                        " show white space
 set listchars=trail:&           " show only trailing spaces
 
-" nice gui
-set guioptions-=T               " no toolbar cos useless
-set guioptions-=e               " no toolbar cos useless
-set guioptions-=r               " no scrollbar
-set guioptions+=d               " no scrollbar
+" nice spelling
+" set spell                       " use spellchecking
+set spelllang=en_gb             " set spelling language
 
-" nice font and colors
-if has("gui_running")
-  if has("gui_win32")
-    set guifont=Consolas:h18
-    set background=light
-    colorscheme lucius
-  else
-    set guifont=Hack\ 18
-    set background=dark
-    colorscheme pencil
-  endif
+if has('unix')
+    set dictionary+=/usr/share/dict/british-english
+else
+    set dictionary+=~/vimfiles/british-english
 endif
-
- " better higlighting
-highlight SpellBad   guifg=black guibg=#D7AFAF
-highlight SpecialKey guifg=magenta
 
 " smart quotes where needed
 autocmd mygroup FileType markdown call textobj#quote#init()
 autocmd mygroup FileType markdown call litecorrect#init()
 autocmd mygroup FileType text call litecorrect#init()
 
+" mucomplete
+set completeopt+=menuone
+
 " ultisnips
-" let g:UltiSnipsExpandOrJumpTrigger="<m-space>"
 let g:UltiSnipsExpandOrJumpTrigger="`"
 
