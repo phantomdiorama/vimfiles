@@ -8,6 +8,7 @@ inoremap <X1Mouse>  <ESC>
 inoremap <C-c>      <esc>
 nnoremap Y          y$
 nnoremap q          gwip
+nnoremap <F1>       z=
 
 " save
 inoremap <C-s>  <C-O>:w<cr>
