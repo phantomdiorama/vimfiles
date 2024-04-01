@@ -63,4 +63,3 @@ set completeopt+=menuone
 
 " ultisnips
 let g:UltiSnipsExpandOrJumpTrigger="`"
-
