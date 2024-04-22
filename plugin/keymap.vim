@@ -34,5 +34,10 @@ nnoremap <leader>s  :set spell!<cr>
 " ===========================
 " WIKI
 " ===========================
-nnoremap <leader>z :e C:\Users\buckl\Dropbox\wiki\wiki.md<cr>
+if has("unix")
+    nnoremap <leader>z :e ~/Dropbox/wiki/wiki.md<cr>
+else
+    nnoremap <leader>z :e ~\Dropbox\wiki\wiki.md<cr>
+endif
+
 nnoremap <leader>gf :e <cfile><cr>
