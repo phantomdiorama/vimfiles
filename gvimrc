@@ -12,7 +12,7 @@ highlight SpellBad   guifg=black guibg=#D7AFAF
 highlight SpecialKey guifg=magenta
 
 if has("gui_win32")
-set guifont=Consolas:h19
+set guifont=Consolas:h20
 else
-set guifont=Hack\ 12
+set guifont=Hack\ 14
 endif
