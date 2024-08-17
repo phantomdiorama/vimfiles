@@ -35,7 +35,7 @@ set incsearch                   " highlight searches as you go
 set smartcase                   " ignore case unless start with caps
 
 " nice looks
-set cursorline                  " highlight current line
+" set cursorline                  " highlight current line
 set colorcolumn=80              " highlight long lines
 set display=lastline            " show everything
 set linespace=3                 " make text easier to read
