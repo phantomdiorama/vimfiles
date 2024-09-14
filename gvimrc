@@ -14,5 +14,5 @@ highlight SpecialKey guifg=magenta
 if has("gui_win32")
 set guifont=Consolas:h20
 else
-set guifont=Hack\ 14
+set guifont=Monospace\ Regular\ 14
 endif
