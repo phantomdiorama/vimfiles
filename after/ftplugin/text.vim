@@ -5,5 +5,6 @@ augroup smart_caps
 augroup END
 
 " locals
-setlocal spell
-setlocal nocursorline
+setlocal wrap               " use word wrapping
+setlocal linebreak          " wrap at word bounds
+setlocal nolist             " do not show whitespace characters

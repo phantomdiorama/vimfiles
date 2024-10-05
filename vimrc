@@ -35,7 +35,6 @@ set incsearch                   " highlight searches as you go
 set smartcase                   " ignore case unless start with caps
 
 " nice looks
-" set cursorline                  " highlight current line
 set colorcolumn=80              " highlight long lines
 set display=lastline            " show everything
 set linespace=3                 " make text easier to read
@@ -43,7 +42,7 @@ set list                        " show white space
 set listchars=trail:&           " show only trailing spaces
 
 " nice spelling
-" set spell                       " use spellchecking
+set spell                       " use spellchecking
 set spelllang=en_gb             " set spelling language
 
 " dictionary from the 'wbritish' Debian package
@@ -56,6 +55,7 @@ endif
 " smart quotes where needed
 autocmd mygroup FileType markdown call textobj#quote#init()
 autocmd mygroup FileType markdown call litecorrect#init()
+autocmd mygroup FileType text call textobj#quote#init()
 autocmd mygroup FileType text call litecorrect#init()
 
 " mucomplete
