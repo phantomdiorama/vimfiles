@@ -53,7 +53,7 @@ else
 endif
 
 " smart quotes where needed
-autocmd mygroup FileType markdown call textobj#quote#init()
+" autocmd mygroup FileType markdown call textobj#quote#init()
 autocmd mygroup FileType markdown call litecorrect#init()
 autocmd mygroup FileType text call textobj#quote#init()
 autocmd mygroup FileType text call litecorrect#init()
