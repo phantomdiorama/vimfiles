@@ -5,4 +5,5 @@ augroup smart_caps
 augroup END
 
 " text expansion
-" iabbrev <buffer> ;p <center><cr><cr>![TITLE](IMAGE)<cr><cr></center>
+iabbrev <buffer> ;h +++<cr>title:<cr>date:<cr>+++
+iabbrev <buffer> ;f #### current status<cr><cr>Cats: <cr><cr>Writing: <cr><cr>Hands:
