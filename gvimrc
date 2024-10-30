@@ -4,11 +4,13 @@ set guioptions-=e               " no toolbar cos useless
 set guioptions-=r               " no scrollbar
 
 " colours
+set background=light
 colorscheme lucius
 LuciusWhiteHighContrast
+
 highlight SpecialKey guifg=magenta
-highlight SpellBad   gui=underline
-highlight SpellCap   gui=none
+highlight SpellBad   guifg=#c71585 gui=NONE guisp=NONE
+highlight SpellCap   gui=NONE guisp=NONE
 
 " fonts
 if has("gui_win32")
