@@ -8,7 +8,7 @@ augroup END
 " nice defaults
 set backspace=indent,eol,start  " backspace like you expect
 set encoding=utf-8              " file encoding inside vim
-set fileformats=unix,dos        " use unix EOL
+set fileformats=unix            " use unix EOL
 set mouse=a                     " mouse everywhere
 set noswapfile                  " don’t create annoying files
 set number                      " line numbers
