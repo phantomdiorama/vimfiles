@@ -60,6 +60,3 @@ autocmd mygroup FileType text call litecorrect#init()
 
 " mucomplete
 set completeopt+=menuone
-
-" ultisnips
-let g:UltiSnipsExpandOrJumpTrigger="`"
