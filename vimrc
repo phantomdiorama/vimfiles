@@ -8,7 +8,7 @@ augroup END
 " nice defaults
 set backspace=indent,eol,start  " backspace like you expect
 set encoding=utf-8              " file encoding inside vim
-" set clipboard=unnamedplus       " use system clipboard
+set clipboard+=unnamedplus      " use system clipboard
 set fileformats=unix            " use unix EOL
 set mouse=a                     " mouse everywhere
 set noswapfile                  " don’t create annoying files
@@ -38,9 +38,10 @@ set smartcase                   " ignore case unless start with caps
 " nice looks
 set colorcolumn=80              " highlight long lines
 set display=lastline            " show everything
-set linespace=3                 " make text easier to read
 set list                        " show white space
 set listchars=trail:&           " show only trailing spaces
+set nowrap
+colorscheme dim
 
 " nice spelling
 set spell                       " use spellchecking

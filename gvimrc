@@ -2,6 +2,8 @@
 set guioptions-=T               " no toolbar cos useless
 set guioptions-=e               " no toolbar cos useless
 set guioptions-=r               " no scrollbar
+set spell
+
 
 " colours
 set background=light
