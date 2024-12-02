@@ -39,15 +39,13 @@ set smartcase                   " ignore case unless start with caps
 set colorcolumn=80              " highlight long lines
 set display=lastline            " show everything
 set list                        " show white space
-set listchars=trail:&           " show only trailing spaces
+set listchars=tab:\>\ ,trail:&  " show tabs and trailing spaces
 set nowrap
 colorscheme dim
 
-" nice spelling
-set spell                       " use spellchecking
+" nice spelling and dictionary
 set spelllang=en_gb             " set spelling language
 
-" dictionary from the 'wbritish' Debian package
 if has('unix')
     set dictionary+=/usr/share/dict/british-english
 else

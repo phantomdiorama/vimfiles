@@ -15,3 +15,4 @@ git clone https://github.com/preservim/vim-textobj-quote.git
 git clone https://github.com/romainl/vim-tinyMRU.git
 git clone https://github.com/tpope/vim-commentary.git
 git clone https://github.com/jeffkreeftmeijer/vim-dim.git
+git clone https://github.com/godlygeek/tabular.git
