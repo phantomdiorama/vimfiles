@@ -18,6 +18,9 @@ nnoremap <C-s>  :w<cr>
 nnoremap / /\v
 vnoremap / /\v
 
+" search and replace
+nnoremap s :%s/
+
 " search and replace in visual selection
 vnoremap s :s/\%V
 
