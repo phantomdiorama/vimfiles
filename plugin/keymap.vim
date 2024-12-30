@@ -10,6 +10,14 @@ nnoremap Y          y$
 nnoremap q          gwip
 nnoremap <F1>       z=
 
+" move properly even when wrapped
+noremap j gj
+noremap k gk
+
+" don't drop out of Visual mode after indent
+vnoremap < <gv
+vnoremap > >gv
+
 " save
 inoremap <C-s>  <C-O>:w<cr>
 nnoremap <C-s>  :w<cr>
