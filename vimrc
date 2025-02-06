@@ -40,7 +40,6 @@ set display=lastline            " show everything
 set list                        " show white space
 set listchars=tab:\>\ ,trail:&  " show tabs and trailing spaces
 set nowrap
-colorscheme dim
 
 " nice spelling and dictionary
 set spelllang=en_gb             " set spelling language
