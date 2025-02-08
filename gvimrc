@@ -9,9 +9,9 @@ set spell
 " colours
 colorscheme base16-zenburn
 
-" highlight SpecialKey guifg=magenta
+highlight SpecialKey guifg=red
 " highlight SpellBad   guifg=#c71585 gui=NONE guisp=NONE
-" highlight SpellCap   gui=NONE guisp=NONE
+highlight SpellCap   gui=NONE guisp=NONE
 
 " fonts
 if has("gui_win32")
