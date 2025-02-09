@@ -56,9 +56,6 @@ autocmd mygroup FileType markdown call litecorrect#init()
 autocmd mygroup FileType text call textobj#quote#init()
 autocmd mygroup FileType text call litecorrect#init()
 
-" mucomplete
-set completeopt+=menuone
-
 if has('unix')
     set mousemodel=popup
 endif
