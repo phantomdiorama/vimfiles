@@ -59,3 +59,10 @@ autocmd mygroup FileType text call litecorrect#init()
 if has('unix')
     set mousemodel=popup
 endif
+
+" mucomplete
+set completeopt+=menuone
+let g:mucomplete#chains = {
+    \ 'default' : ['path', 'keyn', 'dict', 'uspl']
+    \ }
+
