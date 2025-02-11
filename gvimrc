@@ -2,11 +2,11 @@
 set guioptions-=T               " no toolbar cos useless
 set guioptions-=e               " no toolbar cos useless
 set guioptions-=r               " no scrollbar
-set guioptions-=m               " no menu bar
 set spell
 
 " os specific
 if has("gui_win32")
+    set guioptions-=m
     set guifont=Consolas:h20
     colorscheme base16-zenburn
 else
