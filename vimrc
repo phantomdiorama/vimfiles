@@ -18,7 +18,8 @@ set splitright                  " split properly
 set splitbelow                  " split properly
 set autochdir                   " follow current file
 set wildcharm=<tab>             " use autocomplete in maps
-set textwidth=74                " short textwidth
+set textwidth=88                " short textwidth
+set scrolloff=3
 
 " nice indent
 set autoindent                  " indent according previous line
@@ -35,7 +36,7 @@ set incsearch                   " highlight searches as you go
 set smartcase                   " ignore case unless start with caps
 
 " nice looks
-set colorcolumn=80              " highlight long lines
+set colorcolumn=90              " highlight long lines
 set display=lastline            " show everything
 set list                        " show white space
 set listchars=tab:\>\ ,trail:&  " show tabs and trailing spaces
