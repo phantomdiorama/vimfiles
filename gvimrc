@@ -8,7 +8,7 @@ set spell
 if has("gui_win32")
     set guioptions-=m
     set guifont=Consolas:h20
-    colorscheme base16-onedark
+    colorscheme solarized8
 else
     set guifont=Monospace\ Regular\ 14
 endif

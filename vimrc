@@ -44,6 +44,7 @@ set nowrap
 
 " nice spelling and dictionary
 set spelllang=en_gb             " set spelling language
+set spell
 
 if has('unix')
     set dictionary+=/usr/share/dict/british-english
