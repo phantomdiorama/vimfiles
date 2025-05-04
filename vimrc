@@ -1,6 +1,10 @@
 filetype plugin indent on
 syntax on
 
+" runtime stuff
+runtime macros/matchit.vim
+runtime ftplugin/man.vim
+
 augroup mygroup
     autocmd!
 augroup END
