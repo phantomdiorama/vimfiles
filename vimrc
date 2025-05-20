@@ -45,8 +45,6 @@ set display=lastline            " show everything
 set list                        " show white space
 set listchars=tab:\>\ ,trail:&  " show tabs and trailing spaces
 set nowrap
-" set background=light
-" colorscheme solarized8
 
 " nice spelling and dictionary
 set spelllang=en_gb             " set spelling language
