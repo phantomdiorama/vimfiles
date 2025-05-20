@@ -3,17 +3,16 @@ set guioptions-=T               " no toolbar cos useless
 set guioptions-=e               " no toolbar cos useless
 set guioptions-=r               " no scrollbar
 set spell
-colorscheme solarized8
+set background=light
+colorscheme lucius
+LuciusLightHighContrast
 
 " os specific
 if has("gui_win32")
-    set guioptions-=m
     set guifont=Consolas:h20
 else
-    set guifont=Monospace\ Regular\ 14
+    set guifont=Monospace\ Regular\ 12
 endif
 
-" colours
-" highlight SpecialKey guifg=red
-" highlight SpellBad   guifg=#c71585 gui=NONE guisp=NONE
+" custom colours
 highlight SpellCap   gui=NONE guisp=NONE
