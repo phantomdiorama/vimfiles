@@ -40,7 +40,7 @@ set incsearch                   " highlight searches as you go
 set smartcase                   " ignore case unless start with caps
 
 " nice looks
-set colorcolumn=90              " highlight long lines
+" set colorcolumn=90              " highlight long lines
 set display=lastline            " show everything
 set list                        " show white space
 set listchars=tab:\>\ ,trail:&  " show tabs and trailing spaces
@@ -50,11 +50,11 @@ set nowrap
 set spelllang=en_gb             " set spelling language
 set spell
 
-if has('unix')
-    set dictionary+=/usr/share/dict/british-english
-else
-    set dictionary+=~/vimfiles/british-english
-endif
+" if has('unix')
+"     set dictionary+=/usr/share/dict/british-english
+" else
+"     set dictionary+=~/vimfiles/british-english
+" endif
 
 " smart quotes where needed
 autocmd mygroup FileType markdown call litecorrect#init()
