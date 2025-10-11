@@ -23,7 +23,7 @@ set splitbelow                  " split properly
 set autochdir                   " follow current file
 set wildcharm=<tab>             " use autocomplete in maps
 set textwidth=88                " short textwidth
-set scrolloff=3
+set scrolloff=3                 " show more context
 
 " nice indent
 set autoindent                  " indent according previous line
@@ -39,22 +39,15 @@ set ignorecase                  " ignore case when searching
 set incsearch                   " highlight searches as you go
 set smartcase                   " ignore case unless start with caps
 
-" nice looks
-" set colorcolumn=90              " highlight long lines
+" nice spelling
+set spelllang=en_gb             " set spelling language
+set spell                       " spellcheck
+
+" nice display
 set display=lastline            " show everything
 set list                        " show white space
 set listchars=tab:\>\ ,trail:&  " show tabs and trailing spaces
 set nowrap
-
-" nice spelling and dictionary
-set spelllang=en_gb             " set spelling language
-set spell
-
-" if has('unix')
-"     set dictionary+=/usr/share/dict/british-english
-" else
-"     set dictionary+=~/vimfiles/british-english
-" endif
 
 " smart quotes where needed
 autocmd mygroup FileType markdown call litecorrect#init()
