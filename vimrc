@@ -14,12 +14,13 @@ set backspace=indent,eol,start  " backspace like you expect
 set encoding=utf-8              " file encoding inside vim
 set fileformats=unix            " use unix EOL
 set mouse=a                     " mouse everywhere
+set mousemodel=popup            " right click menu
 set noswapfile                  " don’t create annoying files
 set number                      " line numbers
 set ruler                       " use ruler
 set wildmenu                    " command line completion
 set splitright                  " split properly
-set splitbelow                  " split properly
+set splitbelow                  " split below properly
 set autochdir                   " follow current file
 set wildcharm=<tab>             " use autocomplete in maps
 set textwidth=88                " short textwidth
@@ -53,10 +54,6 @@ set nowrap
 autocmd mygroup FileType markdown call litecorrect#init()
 autocmd mygroup FileType text call litecorrect#init()
 autocmd mygroup FileType text call textobj#quote#init()
-
-if has('unix')
-    set mousemodel=popup
-endif
 
 " mucomplete
 set completeopt+=menuone
