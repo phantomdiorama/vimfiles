@@ -7,6 +7,4 @@ set guifont=Monospace\ Regular\ 12
 
 " colours
 set background=light
-colorscheme morning
-highlight SpellCap gui=NONE guisp=NONE
-highlight EndOfBuffer guibg=NONE
+colorscheme goodmorning
