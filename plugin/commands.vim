@@ -4,7 +4,10 @@
 command! Trim :%s/\s\+$//e
 
 "open vimrc
-command! MyConfig :vsp $MYVIMRC
+command! MyConfig :e $MYVIMRC
 
 " unsmart
 command! UnSmart :%s/[“”]/"/g
+
+" wordcount
+command! WordCount :echo 'wordcount ' wordcount().words

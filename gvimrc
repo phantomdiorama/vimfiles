@@ -8,3 +8,6 @@ set guifont=Monospace\ Regular\ 12
 " colours
 set background=light
 colorscheme goodmorning
+
+" make gx work in gvim
+let g:netrw_browsex_viewer="firefox"
