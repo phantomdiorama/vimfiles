@@ -61,3 +61,5 @@ let g:mucomplete#chains = {
     \ 'default' : ['path', 'keyn', 'dict', 'uspl']
     \ }
 
+" Left
+let g:left_bg = '#e4e4e4'
