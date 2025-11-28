@@ -62,4 +62,5 @@ let g:mucomplete#chains = {
     \ }
 
 " Left
-let g:left_bg = '#e4e4e4'
+let g:left_guibg = '#e4e4e4'
+let g:left_ctermbg = '15'
