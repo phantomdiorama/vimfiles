@@ -1,13 +1,25 @@
-" nice gui
+" GVIMRC
+
+" general
+set background=light
+colorscheme goodmorning
+let g:netrw_browsex_viewer="firefox"
+
+" gui
+let g:gvim_menu = 0
+set guifont=Monospace\ Regular\ 13
 set guioptions-=T   " no toolbar
 set guioptions-=e   " no toolbar
 set guioptions-=r   " no scrollbar
 set guioptions-=m   " no menubar
-set guifont=Monospace\ Regular\ 13
 
-" colours
-set background=light
-colorscheme goodmorning
+function! GMenu()
+    if g:gvim_menu == 0
+        set guioptions+=m
+        let g:gvim_menu = 1
+    else
+        set guioptions-=m
+        let g:gvim_menu = 0
+endfunction
 
-" make gx work in gvim
-let g:netrw_browsex_viewer="firefox"
+command! GMenu call GMenu()

@@ -15,3 +15,4 @@ git clone https://github.com/romainl/vim-cool
 git clone https://github.com/romainl/vim-tinyMRU.git
 git clone https://github.com/tpope/vim-commentary.git
 git clone https://github.com/junegunn/goyo.vim
+git clone https://github.com/phantomdiorama/left
