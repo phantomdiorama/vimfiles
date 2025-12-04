@@ -20,6 +20,7 @@ function! GMenu()
     else
         set guioptions-=m
         let g:gvim_menu = 0
+    endif
 endfunction
 
 command! GMenu call GMenu()
