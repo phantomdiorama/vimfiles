@@ -23,7 +23,7 @@ set splitright                  " split properly
 set splitbelow                  " split below properly
 set autochdir                   " follow current file
 set wildcharm=<tab>             " use autocomplete in maps
-set textwidth=88                " short textwidth
+set textwidth=79                " short textwidth
 set scrolloff=3                 " show more context
 
 " nice indent
