@@ -45,6 +45,9 @@ nnoremap <leader>b  :buffers<cr>:buffer<space>
 nnoremap <leader>f  :ME<space><tab>
 nnoremap <leader>s  :set spell!<cr>
 
+" Align
+nnoremap <leader>t :%!column -t<CR>
+vnoremap <leader>t :!column -t<CR>
 " ===========================
 " WIKI
 " ===========================
