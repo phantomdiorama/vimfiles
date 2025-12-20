@@ -48,9 +48,11 @@ nnoremap <leader>s  :set spell!<cr>
 " Align
 nnoremap <leader>t :%!column -t<CR>
 vnoremap <leader>t :!column -t<CR>
+
 " ===========================
 " WIKI
 " ===========================
+
 if has("unix")
     nnoremap <leader>z :e ~/Dropbox/wiki/wiki.md<cr>
 else
